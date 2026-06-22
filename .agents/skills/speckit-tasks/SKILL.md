@@ -137,7 +137,10 @@ The tasks.md should be immediately executable - each task must be specific enoug
 
 **CRITICAL**: Tasks MUST be organized by user story to enable independent implementation and testing.
 
-**Tests are OPTIONAL**: Only generate test tasks if explicitly requested in the feature specification or if user requests TDD approach.
+**Tests are risk-based**: Generate test tasks when explicitly requested and
+whenever the project constitution mandates them. In this repository, contracts,
+normalization, state transitions, temporary-artifact cleanup, and passport OCR
+behavior require automated test tasks.
 
 ### Checklist Format (REQUIRED)
 

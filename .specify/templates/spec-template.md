@@ -98,6 +98,28 @@
 - **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
 - **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
 
+### Governing References and Constraints *(mandatory)*
+
+<!--
+  List the documents and constitutional rules that constrain this feature.
+  Passport OCR features MUST reference `03-passport-ocr-reference-constraints.md`
+  and carry its product behavior into requirements and acceptance criteria.
+-->
+
+- **Reference**: [path or N/A]
+- **Fixed decisions**: [technology, workflow, storage, security and scope rules]
+- **Permitted variations**: [parameters that tests and review may change]
+- **Out of scope**: [capabilities explicitly excluded from this feature]
+
+### Data Handling and Failure Modes *(mandatory when files or personal data are involved)*
+
+- **Persisted data**: [exact data retained and purpose]
+- **Temporary data**: [artifacts, lifetime and cleanup behavior]
+- **Logging exclusions**: [personal or sensitive values that MUST NOT be logged]
+- **Partial result**: [behavior when processing succeeds incompletely]
+- **Technical failure**: [failed-state behavior and safe public error]
+- **Validation failure**: [user-correctable behavior]
+
 ### Key Entities *(include if feature involves data)*
 
 - **[Entity 1]**: [What it represents, key attributes without implementation]
